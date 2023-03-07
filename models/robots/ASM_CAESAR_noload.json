@@ -1,0 +1,72 @@
+{
+    "name": "ASM_CAESAR_noload",
+    "n_dof": "7",
+    "n_joints": "8",
+    "n_q": "7",
+    "n_frames": "21",
+    "gravity": {
+        "x": "0",
+        "y": "0",
+        "z": "-9.8100000000000005"
+    },
+    "forward_kinematics_path": "/models/robots/ASM_CAESAR_noload/ASM_CAESAR_noload_fk.casadi",
+    "forward_dynamics_path": "/models/robots/ASM_CAESAR_noload/ASM_CAESAR_noload_fd.casadi",
+    "inverse_dynamics_path": "/models/robots/ASM_CAESAR_noload/ASM_CAESAR_noload_id.casadi",
+    "Jacobian_forward_dynamics_path": "/models/robots/ASM_CAESAR_noload/ASM_CAESAR_noload_J_fd.casadi",
+    "Jacobian_inverse_dynamics_path": "/models/robots/ASM_CAESAR_noload/ASM_CAESAR_noload_J_id.casadi",
+    "mass_matrix_path": "/models/robots/ASM_CAESAR_noload/ASM_CAESAR_noload_M.casadi",
+    "mass_inverse_matrix_path": "/models/robots/ASM_CAESAR_noload/ASM_CAESAR_noload_Minv.casadi",
+    "coriolis_path": "/models/robots/ASM_CAESAR_noload/ASM_CAESAR_noload_C.casadi",
+    "gravity_path": "/models/robots/ASM_CAESAR_noload/ASM_CAESAR_noload_G.casadi",
+    "joints": {
+        "Joint1": {
+            "joint_types": "JointModelRZ",
+            "joint_pos_ub": "6.2800000000000002",
+            "joint_pos_lb": "-6.2800000000000002",
+            "joint_torque_limit": "100",
+            "joint_vel_limit": "20"
+        },
+        "Joint2": {
+            "joint_types": "JointModelRevoluteUnaligned",
+            "joint_pos_ub": "6.2800000000000002",
+            "joint_pos_lb": "-6.2800000000000002",
+            "joint_torque_limit": "100",
+            "joint_vel_limit": "20"
+        },
+        "Joint3": {
+            "joint_types": "JointModelRZ",
+            "joint_pos_ub": "6.2800000000000002",
+            "joint_pos_lb": "-6.2800000000000002",
+            "joint_torque_limit": "100",
+            "joint_vel_limit": "20"
+        },
+        "Joint4": {
+            "joint_types": "JointModelRX",
+            "joint_pos_ub": "6.2800000000000002",
+            "joint_pos_lb": "-6.2800000000000002",
+            "joint_torque_limit": "100",
+            "joint_vel_limit": "20"
+        },
+        "Joint5": {
+            "joint_types": "JointModelRevoluteUnaligned",
+            "joint_pos_ub": "6.2800000000000002",
+            "joint_pos_lb": "-6.2800000000000002",
+            "joint_torque_limit": "100",
+            "joint_vel_limit": "20"
+        },
+        "Joint6": {
+            "joint_types": "JointModelRX",
+            "joint_pos_ub": "6.2800000000000002",
+            "joint_pos_lb": "-6.2800000000000002",
+            "joint_torque_limit": "100",
+            "joint_vel_limit": "20"
+        },
+        "Joint7": {
+            "joint_types": "JointModelRZ",
+            "joint_pos_ub": "6.2800000000000002",
+            "joint_pos_lb": "-6.2800000000000002",
+            "joint_torque_limit": "100",
+            "joint_vel_limit": "20"
+        }
+    }
+}
